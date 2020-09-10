@@ -11,7 +11,6 @@ interface SiblingsInterface {
 
 const Siblings: FC<SiblingsInterface> = ({ peopleIds, people, relationships }) => {
   const person = people[0]
-  console.log('person', person)
   const children = [people[1], people[2], people[3]]
   return (
     <PersonCard 
